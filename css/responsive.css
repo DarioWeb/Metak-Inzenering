@@ -1,0 +1,130 @@
+.hamburger{
+    float: right;
+    margin-right: 10px;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width: 1015px){
+    .contact_label_info a{
+        font-size: 16px;
+    }
+    .hero_content h2{
+        font-size: 30px;
+    }
+    .hero-c{
+        padding: 100px 0 100px 0 ;
+    }
+    .about h2{
+        font-size: 30px;
+    }
+    .about{
+        padding: 50px 0 50px 0;
+    }
+    .services img{
+        width: 300px;
+        height: 300px;
+    }
+    .services_naslov{
+        font-size: 44px;
+    }
+}
+@media(max-width: 930px){
+    .hamburger{
+        display: block;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        overflow: hidden;
+        bottom: 0;
+        width: 0;
+        background-color: #000;
+    }
+    header nav ul li {
+        display: block;
+    }
+    header nav ul li a{
+        color: #fff;
+    }
+}
+
+@media (max-width: 870px) {
+    .contact_label_info .home_email{
+        font-size: 14px;
+    }
+}
+@media(max-width: 767px){
+    .contact_label_info{
+        width: 60%;
+        margin: 20px auto;
+    }
+    .contact_info{
+        padding-top: 20px;
+    }
+
+    .services img{
+        width: 200px;
+        height: 200px;
+    }
+    .con_info_naslov{
+        display: block;
+    }
+    .contact_form{
+        width: 70%;
+        margin: auto;
+    }
+    .glp{
+        margin-bottom: 17px;
+    }
+
+}
+@media (max-width: 575px) {
+
+    .services{
+        padding-bottom: 0;
+    }
+    .services .pvc{
+        background-color: #000;
+        border: solid 3px #000;
+    }
+
+    .services .metal{
+        background-color: #0c83ef;
+        transition: 0.2s;
+        border: solid 3px #0c83ef;
+    }
+
+    .services .pvc h2{
+        color: #fff;
+    }
+    .services .metal h2{
+        color: #000;
+    }
+
+    .services .pvc:hover{
+        background-color: #111;
+        border: solid 3px #fff;
+    }
+
+    .services .metal:hover{
+        background-color: #007aff;
+        border: solid 3px #fff;
+    }
+}
+@media(max-width: 415px){
+    .home_email{
+        font-size: 10px;
+    }
+}
+@media(max-width: 345px){
+    .contact_label_info{
+        width: 90%;
+    }
+    .profil_box h1{
+        font-size: 22px;
+    }
+}

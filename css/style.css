@@ -1,1 +1,381 @@
+header{
+    background-color: #fff;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 20px #000;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+nav{
+    transition: 0.3s;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+}
+header nav ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia;
+    margin-left: 20px;
+}
+header li{
+    line-height: 100px;
+    list-style: none;
+}
 
+.logo{
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+nav{
+    float: left;
+    margin-right: 20px;
+}
+
+.swiper {
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.hero_content{
+    background-size: cover;
+
+}
+.hero-c{
+    padding: 200px 0 200px 0;
+
+    background-color: rgba(0,0,0,0.5);
+}
+.hero_content h2{
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.btn2{
+    text-decoration: none;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    transition: 0.2s;
+    color: #fff;
+    font-size: 20px;
+    background-color: #007aff;
+    font-style: italic;
+}
+
+.btn3{
+    text-decoration: none;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    transition: 0.2s;
+    color: #fff;
+    font-size: 20px;
+    background-color: #007aff;
+    font-style: italic;
+}
+.btn2:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.btn3:hover{
+    background-color: #000;
+}
+
+.about{
+    padding: 100px 0 100px 0;
+    background-color: #fff;
+}
+.about h1{
+    color: #000;
+    padding: 10px;
+    font-family: 'Rubik Beastly', cursive;
+}
+.con_info_naslov{
+    font-family: 'Rubik Beastly', cursive;
+    color: #ffffff;
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.about h2{
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    color: #0c83ef;
+}
+.services{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: -webkit-linear-gradient(right, #000 50%, #0c83ef 50%);
+}
+
+.services_naslov{
+    color:#fff;
+    font-size: 60px;
+    font-family: Impact;
+}
+.services img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+.services .pvc{
+    background-color: #0c83ef;
+    transition: 0.2s;
+    border: solid 3px #0c83ef;
+}
+.services .pvc h2{
+    color: #000;
+}
+.services .metal h2{
+    color: #fff;
+}
+
+.services .pvc:hover{
+    background-color: #007aff;
+    border: solid 3px #fff;
+    transform:translateX(10%);
+}
+.services .metal:hover{
+    background-color: #111;
+    border: solid 3px #fff;
+    transform:translateX(-10%);
+}
+
+.services .metal{
+    background-color: #000;
+    transition: 0.2s;
+    border: solid 3px #000;
+}
+.services h2{
+    font-family: 'Rubik Beastly', cursive;
+}
+
+footer{
+    padding: 20px;
+    background-color: #0c83ef;
+}
+footer h2{
+    font-family: Impact;
+    color: #fff;
+}
+footer span,p{
+    color: #222;
+}
+footer a{
+    color: blue;
+}
+
+.contact_info{
+    padding-top: 100px;
+}
+.contact_form{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact_form input,textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    outline: none;
+    background-color: #000;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.contact_form h1{
+    font-family: 'Rubik Beastly', cursive;
+    color: #0c83ef;
+}
+
+.contact_label_info{
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.contact_label_info a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s;
+    font-size: 20px;
+}
+.contact_label_info a:hover{
+    background-color: #000;
+    color: #ffffff;
+}
+/*ABOUT*/
+
+.about_hero{
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 300px;
+}
+
+.ah_p{
+    max-width: 80%;
+    font-family: 'Caveat', cursive;
+}
+.ah_naslov{
+    font-family: 'Rubik Beastly', cursive;
+    color: #0c83ef;
+}
+/*PVC*/
+
+.pvc_txt{
+    margin-top: 150px;
+}
+.pvc_txt h1{
+    text-align: center;
+    font-family: 'Rubik Beastly', cursive;
+    color: #000;
+}
+.pvc_txt p{
+    max-width: 70%;
+    font-family: 'Caveat', cursive;
+    font-size: 23px;
+}
+.profil_box{
+    background-color: #0c83ef;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.profil_box h1{
+    color: #000;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family: 'Rubik Beastly', cursive;
+}
+.profil_box p{
+    color: #000;
+    font-family: 'Caveat', cursive;
+    font-size: 26px;
+}
+.metal_hero{
+    margin-top: 150px;
+}
+.metal_hero h1{
+    font-family: 'Rubik Beastly', cursive;
+    color: #000;
+}
+.metal_hero p{
+    color: #000;
+    font-family: 'Caveat', cursive;
+    font-size: 33px;
+    max-width: 70%;
+    margin-top: 30px;
+}
+.metal_box{
+    background-color: #0c83ef;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.metal_box_txt h2{
+    font-family: 'Rubik Beastly', cursive;
+    color: #000;
+}
+.metal_box_txt p {
+    color: #000;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+/*LOGIN*/
+
+.login_form{
+    background-color: #000000;
+    margin-bottom: 100px;
+    display: inline-block;
+    padding: 30px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    margin-top: 200px;
+}
+.login_form input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.login_form h2{
+    font-family: 'Rubik Beastly', cursive;
+    color: #fff;
+}
+.alert_div{
+    position: fixed;
+    background-color: red;
+    width: 50%;
+    left: 25%;
+    color: #ffffff;
+    font-family: 'Caveat', cursive;
+    top: 30%;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black;
+    font-size: 30px;
+}
+.alert_div span{
+    color: #000;
+    font-size: 35px;
+    cursor: pointer;
+    font-family: 'Rubik Beastly', cursive;
+}
+/*admin*/
+.admin_menu ul li{
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+.admin_menu hr{
+    background-color: #999;
+    width: 100%;
+}
+.admin_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    transition: 0.2s;
+    font-size: 19px;
+}
+.admin_menu ul li a:hover{
+    background-color: #999;
+    color: #000;
+}
+
+.upl_form{
+    background-color: #fff;
+    display: inline-block;
+    padding: 30px;
+    width: 100%;
+}
+.admin_naslov{
+    font-family: 'Rubik Beastly', cursive;
+    color: #000;
+}
+.pvc_gallery{
+    background-color: #000;
+    padding: 30px;
+}
+.pvc_gallery h1{
+    font-family: 'Rubik Beastly', cursive;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.login_form label{
+    color: white;
+}
